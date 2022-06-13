@@ -11,5 +11,13 @@ input.addEventListener('click', function() {
 
 
 
+//console.log(addEventListener());
 
-input.addEventListener('click',clickAlert);
+
+const input2 = document.getElementById("input")
+input2.addEventListener("click", clickMe);
+
+function clickMe() {
+  alert("He you look for me?")
+}
+console.log(addEventListener("click", clickMe))
